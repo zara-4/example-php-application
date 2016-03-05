@@ -1,0 +1,28 @@
+{
+  "name": "zara-4/php-sdk",
+  "description": "Helper classes used to interact with the Zara 4 API.",
+  "keywords": ["Zara 4", "Image Optimisation"],
+  "homepage": "https://github.com/zara-4/php-sdk",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Colin Stannard",
+      "email": "colin.stannard@cbsindustries.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.0",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "~5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zara4": ""
+    }
+  }
+}
